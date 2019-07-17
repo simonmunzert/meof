@@ -590,6 +590,22 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+img.vw-logo {
+  vertical-align: middle;
+  max-width: 20vw;
+  padding-bottom: 2vw;
+}
+
+img.uni-logo {
+  width: auto;
+  max-height: 5vw;
+  max-width: 15vw;
+}
+
+img.img-portfolio {
+  
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../img/map-image.png");
