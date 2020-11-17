@@ -42,7 +42,24 @@ h6 {
 .page-section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.page-section h2.section-heading-underline {
+  font-size: 40px;
+  margin-top: 0;
   margin-bottom: 15px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.page-section h2.section-heading-underline-light {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-decoration: underline;
+  text-underline-position: under;
+  color: #cfa517;
 }
 
 .page-section h3.section-subheading {
@@ -51,6 +68,25 @@ h6 {
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.page-section h3.section-subheading-italic {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 75px;
+  text-transform: none;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.page-section h3.section-subheading-normal {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 35px 100px 40px 100px;
+  text-transform: none;
+  text-align: center;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -228,6 +264,17 @@ header.masthead .intro-text .intro-heading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+
+.service-subtext-light {
+  margin: 15px 0;
+  text-transform: none;
+  color: #cfa517;
+}
+
+hr.white-thick {
+  border: 1px solid #FFFFFF;
+  margin: 35px 50px 10px 50px ;
 }
 
 #portfolio .portfolio-item {
@@ -575,6 +622,7 @@ header.masthead .intro-text .intro-heading {
 
 .team-member {
   margin-bottom: 50px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -591,6 +639,29 @@ header.masthead .intro-text .intro-heading {
 }
 
 .team-member p {
+  margin-top: 0;
+}
+
+.team-member-light {
+  margin-bottom: 50px;
+  margin-top: 10px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.team-member-light img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid rgba(0, 0, 0, 0.1);
+}
+
+.team-member-light h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.team-member-light p {
   margin-top: 0;
 }
 
