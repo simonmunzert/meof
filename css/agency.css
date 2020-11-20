@@ -48,7 +48,7 @@ h6 {
 .page-section h2.section-heading-underline {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   text-decoration: underline;
   text-underline-position: under;
 }
@@ -84,7 +84,10 @@ h6 {
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
-  margin: 35px 100px 40px 100px;
+  margin-top: 35px ;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: auto;
   text-transform: none;
   text-align: center;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -275,6 +278,16 @@ header.masthead .intro-text .intro-heading {
 hr.white-thick {
   border: 1px solid #FFFFFF;
   margin: 35px 50px 10px 50px ;
+}
+
+hr.white-thick-top {
+  border: 1px solid #FFFFFF;
+  margin: 30px 50px 20px 50px ;
+}
+
+hr.white-thick-bottom {
+  border: 1px solid #FFFFFF;
+  margin: 20px 50px 30px 50px ;
 }
 
 #portfolio .portfolio-item {
@@ -643,20 +656,20 @@ hr.white-thick {
 }
 
 .team-member-light {
-  margin-bottom: 50px;
-  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-top: 5px;
   text-align: center;
   color: #FFFFFF;
 }
 
 .team-member-light img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid rgba(0, 0, 0, 0.1);
+  width: 180px;
+  height: 180px;
+  border: 5px solid rgba(0, 0, 0, 0.1);
 }
 
 .team-member-light h4 {
-  margin-top: 25px;
+  margin-top: 12.5px;
   margin-bottom: 0;
   text-transform: none;
 }
