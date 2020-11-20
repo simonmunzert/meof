@@ -184,6 +184,16 @@ img::-moz-selection {
   color: #fed136;
 }
 
+.reverse {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 600px) {
+  .reverse {
+    flex-direction: column;
+  }
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
@@ -282,12 +292,12 @@ hr.white-thick {
 
 hr.white-thick-top {
   border: 1px solid #FFFFFF;
-  margin: 30px 50px 20px 50px ;
+  margin: 40px 50px 30px 50px ;
 }
 
 hr.white-thick-bottom {
   border: 1px solid #FFFFFF;
-  margin: 20px 50px 30px 50px ;
+  margin: 30px 50px 40px 50px ;
 }
 
 #portfolio .portfolio-item {
@@ -634,7 +644,7 @@ hr.white-thick-bottom {
 }
 
 .team-member {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   margin-top: 10px;
   text-align: center;
 }
@@ -643,6 +653,7 @@ hr.white-thick-bottom {
   width: 225px;
   height: 225px;
   border: 7px solid rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
 }
 
 .team-member h4 {
@@ -666,6 +677,7 @@ hr.white-thick-bottom {
   width: 180px;
   height: 180px;
   border: 5px solid rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
 }
 
 .team-member-light h4 {
@@ -681,7 +693,7 @@ hr.white-thick-bottom {
 img.vw-logo {
   vertical-align: middle;
   max-width: 20vw;
-  padding-bottom: 2vw;
+  padding-bottom: 5vw;
 }
 
 img.uni-logo {
@@ -693,6 +705,21 @@ img.uni-logo {
 img.img-portfolio {
   display:block;
   margin:auto;
+}
+
+@media (max-width: 600px) {
+  img.uni-logo {
+    width: auto;
+    max-height: 15vw;
+    max-width: 30vw;
+    padding-bottom: 5vw;
+  }
+
+  img.vw-logo {
+    vertical-align: middle;
+    max-width: 45vw;
+    padding-bottom: 5vw;
+  }
 }
 
 section#contact {
